@@ -1,0 +1,14 @@
+{
+  "users": [
+    { "id": "u1001", "name": "Asha Rao", "phone": "+919876543210", "status": "active", "joined": "2025-06-05" },
+    { "id": "u1002", "name": "Ravi Kumar", "phone": "+919812345678", "status": "inactive", "joined": "2025-04-12" },
+    { "id": "u1003", "name": "Suman Patel", "phone": "+919701234567", "status": "active", "joined": "2025-07-01" },
+    { "id": "u1004", "name": "Neha Singh", "phone": "+919812346789", "status": "active", "joined": "2025-08-15" },
+    { "id": "u1005", "name": "Vikram Das", "phone": "+919876542109", "status": "inactive", "joined": "2025-05-20" },
+    { "id": "u1006", "name": "Pooja Mehta", "phone": "+919701235678", "status": "active", "joined": "2025-09-10" },
+    { "id": "u1007", "name": "Amit Joshi", "phone": "+919812347890", "status": "active", "joined": "2025-03-30" },
+    { "id": "u1008", "name": "Kavita Sharma", "phone": "+919876541234", "status": "inactive", "joined": "2025-02-18" },
+    { "id": "u1009", "name": "Rajesh Nair", "phone": "+919701236789", "status": "active", "joined": "2025-01-25" },
+    { "id": "u1010", "name": "Sneha Iyer", "phone": "+919812348901", "status": "active", "joined": "2025-10-01" }
+  ]
+}

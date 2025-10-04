@@ -1,0 +1,22 @@
+{
+  "recipes": [
+    {
+      "id": "r1",
+      "title": "Plain Boiled Rice",
+      "cuisine": "Indian",
+      "veg": true,
+      "tags": ["staple", "easy"],
+      "image": "https://via.placeholder.com/150?text=Boiled+Rice",
+      "ingredients": [
+        { "ingredientId": "ing1", "qty": 1, "unit": "cup" },
+        { "ingredientId": "ing3", "qty": 1, "unit": "tsp" }
+      ],
+      "steps": [
+        "Rinse rice until water runs clear.",
+        "Boil 2 cups water for each cup of rice.",
+        "Add rice and salt. Cook covered until water absorbed."
+      ],
+      "createdAt": "2025-09-01T10:00:00Z"
+    }
+  ]
+}

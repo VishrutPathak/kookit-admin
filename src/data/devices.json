@@ -1,0 +1,20 @@
+{
+  "devices": [
+    {
+      "id": "d1001",
+      "name": "Kookit Pad A1",
+      "dateSold": "2025-07-20",
+      "primaryUserId": "u1001",
+      "secondaryUserId": "u1003",
+      "status": "active"
+    },
+    {
+      "id": "d1002",
+      "name": "Kookit Pad B2",
+      "dateSold": "2025-08-02",
+      "primaryUserId": "u1002",
+      "secondaryUserId": null,
+      "status": "inactive"
+    }
+  ]
+}

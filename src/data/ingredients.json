@@ -1,0 +1,25 @@
+{
+  "ingredients": [
+    {
+      "id": "ing1",
+      "name": "Rice",
+      "unit": "kg",
+      "notes": "",
+      "image": "https://via.placeholder.com/80?text=Rice"
+    },
+    {
+      "id": "ing2",
+      "name": "Onion",
+      "unit": "pcs",
+      "notes": "",
+      "image": "https://via.placeholder.com/80?text=Onion"
+    },
+    {
+      "id": "ing3",
+      "name": "Turmeric Powder",
+      "unit": "g",
+      "notes": "",
+      "image": "https://via.placeholder.com/80?text=Turmeric"
+    }
+  ]
+}

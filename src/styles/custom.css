@@ -1,0 +1,31 @@
+/* src/styles/custom.css */
+
+/* subtle page background gradient */
+.bg-gradient {
+  background: linear-gradient(180deg, #f8fafc 0%, #f1f5f9 100%);
+}
+
+/* sidebar: keep full height and sticky */
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+/* slightly heavier card shadows */
+.card.shadow-sm {
+  box-shadow: 0 6px 18px rgba(20, 23, 28, 0.06);
+}
+
+/* active nav link */
+.nav-link.active {
+  background-color: #eef2ff;
+  color: #1e3a8a !important;
+  border-left: 3px solid #6366f1;
+}
+
+/* table hover color */
+.table-hover tbody tr:hover {
+  background-color: #fbfbff;
+}

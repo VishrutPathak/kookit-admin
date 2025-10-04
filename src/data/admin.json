@@ -1,0 +1,28 @@
+{
+  "admins": [
+    {
+      "id": "admin1",
+      "username": "admin@kookit.io",
+      "password": "admin123",
+      "name": "Super Admin",
+      "role": "superadmin",
+      "lastLogin": "2025-10-03T08:30:00.000Z"
+    },
+    {
+      "id": "admin2",
+      "username": "john@kookit.io",
+      "password": "john123",
+      "name": "John Doe",
+      "role": "admin",
+      "lastLogin": "2025-09-29T11:15:00.000Z"
+    },
+    {
+      "id": "admin3",
+      "username": "jane@kookit.io",
+      "password": "jane123",
+      "name": "Jane Smith",
+      "role": "admin",
+      "lastLogin": null
+    }
+  ]
+}
