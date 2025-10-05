@@ -2,15 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <!-- favicon uses BASE_URL to resolve correctly in dist -->
+    <!-- Use /kookit-admin/ for static assets so Vite rewrites it at build time -->
     <link rel="icon" type="image/jpeg" href="/kookit-admin/assets/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>kookit-admin</title>
+    <!-- Keep CSS link optional; Vite will inject CSS in dev automatically.
+         If you reference CSS file here, prefer /kookit-admin/ as well. -->
     <script type="module" crossorigin src="/kookit-admin/assets/index-DyF85uUZ.js"></script>
     <link rel="stylesheet" crossorigin href="/kookit-admin/assets/index-BfAjYdUM.css">
   </head>
   <body>
     <div id="root"></div>
-    <!-- KEEP an absolute path for the module entry so Vite can resolve it at build time -->
+
+    <!-- DEV: Keep the module entry pointing to source so vite dev server can load it.
+         Vite will rewrite this to the hashed asset path when running `vite build`
+         and using the configured base. -->
   </body>
 </html>
