@@ -16,6 +16,7 @@ const RecipeEdit = lazy(() => import("./pages/RecipeEdit"));
 const Users = lazy(() => import("./pages/Users"));
 const Devices = lazy(() => import("./pages/Devices"));
 const Admins = lazy(() => import("./pages/Admins"));
+const Support = lazy(() => import("./pages/Support")); // <- added
 
 /** PublicRoute: if user is logged in, redirect to /dashboard */
 function PublicRoute({ children }) {
@@ -136,6 +137,16 @@ function AppRoutes() {
             <ProtectedRoute>
               <AdminLayout>
                 <Admins />
+              </AdminLayout>
+            </ProtectedRoute>
+          }
+        />
+        <Route
+          path="/support"
+          element={
+            <ProtectedRoute>
+              <AdminLayout>
+                <Support />
               </AdminLayout>
             </ProtectedRoute>
           }
