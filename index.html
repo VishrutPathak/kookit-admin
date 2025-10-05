@@ -3,13 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <!-- favicon uses BASE_URL to resolve correctly in dist -->
-    <link rel="icon" type="image/jpeg" href="%BASE_URL%assets/favicon.jpg" />
+    <link rel="icon" type="image/jpeg" href="/kookit-admin/assets/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>kookit-admin</title>
+
+    <!-- keep CSS in head -->
+    <link rel="stylesheet" crossorigin href="/kookit-admin/assets/index-BfAjYdUM.css">
   </head>
   <body>
     <div id="root"></div>
-    <!-- KEEP an absolute path for the module entry so Vite can resolve it at build time -->
-    <script type="module" src="/src/main.jsx"></script>
+
+    <!-- Place the module script AFTER the #root element so mount happens reliably -->
+    <script type="module" crossorigin src="/kookit-admin/assets/index-DyF85uUZ.js"></script>
   </body>
 </html>
