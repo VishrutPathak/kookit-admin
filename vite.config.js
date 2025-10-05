@@ -3,7 +3,7 @@ import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
 
 export default defineConfig({
-  base: "/",           // <-- ensure this is '/'
+  base: "/kookit-admin/",   // <- CHANGED: important for GitHub Pages subpath
   plugins: [react()],
   build: {
     assetsDir: "assets"
