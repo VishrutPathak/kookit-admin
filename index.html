@@ -2,13 +2,15 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-<link rel="icon" type="image/jpeg" href="/assets/favicon.jpg" />
+    <!-- favicon uses BASE_URL to resolve correctly in dist -->
+    <link rel="icon" type="image/jpeg" href="/kookit-admin/assets/favicon.jpg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>kookit-admin</title>
-    <script type="module" crossorigin src="/assets/index-Cb7WF7WO.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-BXMyKsS2.css">
+    <script type="module" crossorigin src="/kookit-admin/assets/index-DyF85uUZ.js"></script>
+    <link rel="stylesheet" crossorigin href="/kookit-admin/assets/index-BfAjYdUM.css">
   </head>
   <body>
-    <div id="root"></div>
+    <div id="root"></div>
+    <!-- KEEP an absolute path for the module entry so Vite can resolve it at build time -->
   </body>
 </html>
